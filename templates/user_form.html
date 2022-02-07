@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--    {{eml}}-->
+    <!--    {{nm}}-->
+    <meta charset="UTF-8">
+    <div>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <label for="">value1</label>
+            <input type="text" name="username" class="form-controls"/><br>
+            <label for="">value2</label>
+            <input type="email" name="email" class="form-controls"/><br>
+            <label for="">value3</label>
+            <input type="number" name="mobile" class="form-controls"/><br>
+            <button type="submit">Save </button>
+            <input type="text" value={{output}}>
+
+        </form>
+    </div>
+{{mb}}
+</head>
+<body>
+
+</body>
+</html>

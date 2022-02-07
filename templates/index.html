@@ -1,0 +1,274 @@
+
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+<style>
+    .active{
+    background-color:red;}
+    .head {
+      background-color: rgb(42, 157, 165);
+      text-align: center;
+      height: 10vh;
+      padding: 10px;
+      color: chartreuse;
+      font-size: large;
+
+
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .aboutcontentimage {
+      width: 25vw;
+      display: inline;
+      margin: 14px;
+      padding: 2px;
+      float: left;
+
+    }
+
+    .aboutcontent {
+      margin: 0px;
+      padding: 0px;
+      width: 70vw;
+      display: contents;
+      float: right;
+    }
+
+    .container-fluid {
+      z-index: 2;
+    }
+
+    .features ul {
+      margin: 50px;
+    }
+
+    .features li {
+      margin: 2rem;
+      padding-left: 100px;
+    }
+
+
+
+    .servicecs h2 ul {
+      margin: 50px;
+
+    }
+
+    .servdisc ul h1 {
+      padding: 50px
+    }
+
+    .psnliftimage {
+      width: 30vw;
+      float: left;
+      display: inline;
+      margin: 14px;
+      padding: 2px;
+    }
+
+    .psnliftdisc {
+      background-color: cyan;
+      margin: 0px;
+      float: right;
+      padding-top: 20px;
+      width: 70vw;
+      display: contents;
+
+    }
+
+    .hospitallift h2 {
+      padding: 50px
+    }
+
+    .hoslifimage {
+      width: 30vw;
+      float: left;
+      display: inline;
+      margin: 14px;
+      padding: 2px;
+    }
+
+    .hosliftdisc {
+      background-color: cyan;
+      margin: 0px;
+      float: right;
+      padding-top: 20px;
+      width: 70vw;
+      display: contents;
+
+    }
+  .footer-copyright{
+    background-color: rgb(16, 236, 115);
+    color: darkmagenta;
+  }
+
+</style>
+
+
+  <!--  images slider ---------------------------------------------------------------->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="static/images/elevator1.jpg" class="d-block w-100" alt="..." width="400" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="static/images/elevator2.jpg" class="d-block w-100" alt="..." width="200" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="static/images/elevator3.jpg" class="d-block w-100" alt="..." width="200" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="static/images/elevator4.jpg" class="d-block w-100" alt="..." width="200" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="static/images/elevator5.jpg" class="d-block w-100" alt="..." width="200" height="400">
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------- content no 1 ------------------------------------------------->
+  <div class="about">
+    <br><br>
+    <h1>About MA ELEVATORS</h1><br>
+  </div>
+  <div class="aboutcontentimage">
+
+    <img src="static/images/building1.jpg" class="img-fluid" alt="" width="300">
+
+  </div>
+  <div class="aboutcontent">
+
+    AM Elevator gives us over a decade worth of experience in the elevator industry! When we say we know elevators,
+    it is more than a simple statement, we have adapted the same inspirational culture within our organization. This
+    has allowed us to become one of the premier elevator companies in Pakistan.
+    We offer high quality services and elevator equipment at exceptional value to our clients. Our formulation for
+    success includes developing a long-lasting partnership between our business and the clients in which we serve.
+    We treat all of our customers as if they were family, and provide a level of service unparalleled in the
+    elevator industry.When you chose MA Elevators as your preferred contractor, you will find that your
+    elevators will be seamlessly maintained and operated.
+
+  </div>
+
+  <br><br><br><br><br><br><br><br>
+
+  <div class="features">
+    <h1>
+      <ul> Features of our compnay</ul>
+    </h1>
+    <li>Fast and Reliable Service We ensure all clients are fully satisfied with our products and services</li>
+    <li>24/7 Emergency Services- Get your services delivered within an average of two hours</li>
+    <li>Safety- We use world standard procedures to ensure every service task is performed at maximum safety</li>
+    <li>Great Deals, Made Better- We will work with your budget and schedule to make you fully satisfied.</li>
+
+  </div>
+  <!-- services ============================================================ -->
+  <div class="servdisc">
+
+
+
+    <h1>
+      <ul py 20px > Services we are Providing</ul>
+    </h1>
+  </div>
+  <br>
+  <div class="services">
+
+    <ul>
+      <h2>Passenger lift </h2>
+    </ul>
+    <div class="psnliftimage">
+
+      <img src="static/images/pasengerElevator.png" class="img-fluid" alt="" width="300">
+    </div>
+
+  </div>
+
+
+  Passengers are transported between floors at reasonably quick speeds and the control systems are often
+  designed
+  to give the most economical distribution of passengers throughout the building. Our most popular passenger
+  lift
+  is the very space efficient, which is primarily designed for installation in existing buildings where space
+  is at a premium, or the building is not capable of taking extra horizontal loadings.
+
+  </div>
+  </div>
+  <br><br><br><br><br><br>
+
+  </div>
+  <br>
+  <div class="services">
+
+    <ul>
+      <br><br><br><br><br><br>
+      <h2>Hospital Lift </h2>
+    </ul>
+    <div class="psnliftimage">
+
+      <img src="static/images/hospitalbedlift.jpg" class="img-fluid" alt="" width="300">
+    </div>
+
+  </div>
+
+  An elevator is technically complex lifting device which should ensure maximum reliability and safety of operation. In
+  hospitals and clinics, special attention is paid to these parameters, since any failure can lead to serious
+  consequences. That is why lift equipment for hospitals should have additional protection, ensuring uninterrupted
+  operation even in the absence of electricity. Thus, modern hospital elevators are equipped with batteries that allow
+  continuing riding and supply with lighting sources.
+  </div>
+
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br>
+  <div class="services">
+    <br><br><br><br><br><br>
+    <h2>Asclators in Malls </h2>
+
+
+    <div class="psnliftimage">
+
+      <img src="static/images/asclator.jpg" class="img-fluid" alt="" width="300">
+    </div>
+
+  </div>
+
+
+
+  Escalators have definitely redefined multi-level movements. The device has made the movement between different levels
+  of a building so much easier and convenient. You can find them in malls, metro stations, airports, and even in some
+  hotels and hospitals. They have reduced the pain of climbing staircases. It remains crucial to understand the
+  properties and types of escalators and elevators, their design, dimensions, configurations, etc.
+
+  </div>
+  </div>
+<!-- footer=-======================= -->
+<!-- Footer -->
+<br><br><br><br><br><br>
+
+<!-- Footer -->
+  <!---->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
+{% endblock %}
+
+<!-- 
+passanger lift
+hospital bad lift
+asclators in malls -->
