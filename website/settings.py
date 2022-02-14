@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-arkgriw(p%lh*=(+=-rpem485$y26tte1ng$m)ab*=)s&j8f0m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['205.144.171.253']
 
 
 # Application definition
